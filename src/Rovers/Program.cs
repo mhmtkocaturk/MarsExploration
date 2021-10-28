@@ -8,6 +8,7 @@ namespace MarsExploration.Rovers
     {
         public static void Main(string[] args)
         {
+            Console.Title = "Rovers";
             CreateHostBuilder(args).Build().Run();
         }
 
