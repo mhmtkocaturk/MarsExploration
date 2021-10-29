@@ -1,4 +1,5 @@
 ﻿using MarsExploration.Common.Abstraction;
+using System;
 
 namespace MarsExploration.Library.Commands
 {
@@ -8,7 +9,7 @@ namespace MarsExploration.Library.Commands
 
         public MoveForward(IVehicle vehicle)
         {
-            _vehicle = vehicle;
+            _vehicle = vehicle ?? throw new ArgumentNullException($"{nameof(vehicle)} should not be null"); 
         }
 
         public void Execute()
