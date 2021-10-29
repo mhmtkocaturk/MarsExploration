@@ -63,5 +63,7 @@ Earth
 Rovers
 ```
 
-Users can start with Earth App with sample data. 
-Earth App connects to Rovers and gives sample instructions for Mars Exploration. Users can also add new rovers.
+Users can start with Earth App with sample data. You should set Rovers and Earth App as multiple startup projects.
+Earth App connects to Rovers and gives sample instructions for Mars Exploration. Users can also add new rovers. 
+
+Visual Studio allows you to specify how more than one project is run when you start the debugger. To set multiple startup projects [folow the link](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2019)
