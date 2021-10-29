@@ -1,6 +1,6 @@
 # MarsExploration
 
-Mars Rover problem solution in C# .NET 5, using gRPC and clean architecture. It's targeted to ASP.NET 5.
+Mars Rover problem solution in C# .NET 5, using gRPC and clean architecture.
 
 In gRPC, a client application can directly call a method on a server application on a different machine as if it were a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. On the server side, the server implements this interface and runs a gRPC server to handle client calls.
 [Introduction to gRPC on .NET](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-5.0)
